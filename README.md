@@ -2,6 +2,15 @@
 # Problem Statement:
 
 # Techniques:
+In order to accomplish the data clustering tas, I pre-processed the input data by converting symbolic features to numerical features in different ways and utilized a classic unsuprivsed learning algorithm, k-means, to automatically analyze the unseen data.
+
+1. Data pre-processing: <br />
+
+
+2. K-means: <br />
+
+
+
 
 
 # How to run the script?
