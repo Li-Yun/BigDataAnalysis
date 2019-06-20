@@ -42,3 +42,4 @@ python3 main.py --predict True
 ```
 
 # Conclusion:
+I have tested this tool multiple times, and it is stable to process over 350,000 data examples. For prediction, the algorithm is also able to make a prediction a large number of testing data. During training, there are several important observations. First, a large number of centroids increases the epoch number to converge. In other words, the algorithm needs more epochs to find optimal centroids. Second, a large amount of training data also causes the algorithm needs more epochs to converge. When the number of data points is huge, the algorithm will need more epochs to adjust its centroids to fit extra training examples.
