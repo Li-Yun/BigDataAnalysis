@@ -1,5 +1,6 @@
 # BigDataAnalysis
 # Problem Statement:
+A big data analysis tool is very rudimentary to any big data analysis tasks. In this project, I have create and developed the big data analysis script that is able to perform data analysis automatically by leveraging a machine learning techqniue. Specifically, this tool enables us to train a machine-learning model unsupervisedly and applied it to cluster unseen data samples. 
 
 # Techniques:
 In order to accomplish the data clustering tas, I pre-processed the input data by converting symbolic features to numerical features in different ways and utilized a classic unsuprivsed learning algorithm, k-means, to automatically analyze the unseen data.
@@ -17,8 +18,8 @@ Since most of the features are symbolic representations, it is easy to conver al
 2. K-means:
 K-means is a classic unsupvised learning algorithm that enables us to automatically cluster all the data points without having any class labels. By doing this, the algorithm can group all the data points together based on similar patterns in the fatures. The K-mean algorithms is the following: <br />
 (1) Randomly choose K samples from the training data as the initial centroids. <br />
-(2) test <br />
-(3) test <br />
+(2) For every data point, calculate an euclidean distance between the data point and the centroids. The algorithm then assigns every point to the associated centroid based on the minimum distance. <br />
+(3) Update all the centroids. <br />
 
 # How to run the script?
 1. Please download a dataset for script running. <br />
