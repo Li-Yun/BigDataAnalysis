@@ -6,16 +6,16 @@ In order to accomplish the data clustering tas, I pre-processed the input data b
 
 1. Data pre-processing: <br />
 Since most of the features are symbolic representations, it is easy to conver all of them to numerical features for further usage. I am going to show how I cast different features to the numerical representations. <br />
-(1) time_created: 
-(2) date_created:
+(1) time_created: I discard this feature since it is similar to feature "date_created". <br />
+(2) date_created:   <br />
+(3) up_votes: I directly cast strings to integers for this feature. <br />
+(4) down_votes: I also directly cast strings to integers for this feature. <br />
+(5) title:  <br />
+(6) author: I represent the name of authors as length of characthers. For example, name "polar" becomes 5 <br />
+(7) category:    <br />
 
 
 2. K-means: <br />
-
-
-time_created,date_created,up_votes,down_votes,title,over_18,author,category
-
-
 
 
 
