@@ -16,7 +16,7 @@ For example:
 python3 main.py --train True
 ```
 
-3. Predicting the new data and automatically perform data clustering
+3. Predicting the new data and automatically performing data clustering
 ```
 python3 main.py --predict True [--train_ratio 0.7][--K 7][--max_itr 2000][--tol_num 1e-5]
 
