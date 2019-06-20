@@ -5,6 +5,8 @@
 In order to accomplish the data clustering tas, I pre-processed the input data by converting symbolic features to numerical features in different ways and utilized a classic unsuprivsed learning algorithm, k-means, to automatically analyze the unseen data.
 
 1. Data pre-processing: <br />
+Since most of the features are symbolic representations, it is easy to conver all of them to numerical features for further usage. I am going to show how I cast different features to the numerical representations. <br />
+(1) 
 
 
 2. K-means: <br />
