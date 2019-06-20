@@ -14,10 +14,11 @@ Since most of the features are symbolic representations, it is easy to conver al
 (6) **author**: I represent the name of authors as length of characthers. For example, name "polar" becomes 5 <br />
 (7) **category**: I create a dictionary structure to map a string to the associated number. <br />
 
-2. K-means: <br />
-==> afternoon
-
-
+2. K-means:
+K-means is a classic unsupvised learning algorithm that enables us to automatically cluster all the data points without having any class labels. By doing this, the algorithm can group all the data points together based on similar patterns in the fatures. The K-mean algorithms is the following: <br />
+(1) Randomly choose K samples from the training data as the initial centroids. <br />
+(2) test <br />
+(3) test <br />
 
 # How to run the script?
 1. Please download a dataset for script running. <br />
